@@ -1,69 +1,175 @@
+/* General styles */
+
 body {
-  background: linear-gradient(to bottom, #87CEFA, #FFFF00); /* light blue to yellow gradient background */
-  color: black; /* black text color */
-  font-family: Arial, sans-serif; /* default font family */
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  color: #333333;
+  margin: 0;
+  padding: 0;
 }
+
+a {
+  text-decoration: none;
+  color: #333333;
+}
+
+h1, h2, h3 {
+  margin: 0;
+  font-weight: normal;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Header */
 
 header {
-  background: linear-gradient(to bottom, #87CEFA, #FFFF00); /* light blue to yellow gradient background */
-  color: black; /* black text color */
-  padding: 20px; /* add some padding to header */
-}
-
-h1, h2 {
-  text-align: center; /* center the headings */
-}
-
-nav {
+  background-color: #ffffff;
+  padding: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #FFDAB9; /* peachpuff background color for navigation */
-  padding: 10px; /* add some padding to navigation */
 }
 
-nav ul {
+header h1 {
+  font-size: 36px;
+  margin: 0;
+}
+
+header nav ul {
   list-style: none;
   margin: 0;
   padding: 0;
   display: flex;
 }
 
-nav li {
-  margin: 0 10px;
+header nav ul li {
+  margin-left: 30px;
 }
 
-nav a {
-  color: black; /* black text color for navigation links */
-  text-decoration: none; /* remove underline from links */
-  font-weight: bold; /* make links bold */
-  font-size: 18px; /* increase font size of links */
+header nav ul li a {
+  font-size: 18px;
+  font-weight: bold;
 }
 
-nav a:hover {
-  color: #FFA07A; /* coral text color on hover */
+/* Main */
+
+main {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
-section {
-  max-width: 800px; /* limit section width */
-  margin: 0 auto; /* center section */
-  padding: 50px; /* add some padding to section */
-  background-color: white; /* white background color for section */
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* add shadow to section */
-  border-radius: 10px; /* round section corners */
+/* Products */
+
+.products {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
 }
 
-button {
-  background: linear-gradient(to bottom, #87CEFA, #FFFF00); /* light blue to yellow gradient background */
-  color: black; /* black text color for buttons */
-  font-weight: bold; /* make buttons bold */
-  padding: 10px 20px; /* add some padding to buttons */
-  border: none; /* remove button border */
-  border-radius: 5px; /* round button corners */
-  cursor: pointer; /* add cursor pointer on hover */
+.category {
+  width: 30%;
+  background-color: #ffffff;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
 }
 
-button:hover {
-  background: linear-gradient(to bottom, #87CEFA, #FFFF00); /* light blue to yellow gradient background */
-  color: white; /* white text color on hover */
+.category h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
 }
+
+.category ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  flex-grow: 1;
+}
+
+.category li {
+  margin-bottom: 10px;
+}
+
+.category li img {
+  margin-right: 10px;
+}
+
+.category li h3 {
+  font-size: 18px;
+  margin: 0 0 5px 0;
+}
+
+.category li p {
+  margin: 0;
+  font-size: 14px;
+  color: #666666;
+}
+
+.category button {
+  background-color: #e6e6e6;
+  border: none;
+  color: #333333;
+  padding: 10px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.category button:hover {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+/* Contact */
+
+.contact {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.contact form label {
+  font-size: 18px;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.contact form input,
+.contact form textarea {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  margin-bottom: 10px;
+}
+
+.contact form textarea {
+  height: 150px;
+}
+
+.contact form button {
+  background-color: #e6e6e6;
+  border: none;
+  color: #333333;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.contact form button:hover {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+/* Footer */
+
+footer {
+  background-color: #
