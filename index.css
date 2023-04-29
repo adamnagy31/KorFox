@@ -5,7 +5,8 @@ body {
 }
 
 header {
-  background-color: white; /* white background color for header */
+  background: linear-gradient(to bottom, #87CEFA, #FFFF00); /* light blue to yellow gradient background */
+  color: black; /* black text color */
   padding: 20px; /* add some padding to header */
 }
 
@@ -53,7 +54,7 @@ section {
 }
 
 button {
-  background-color: #FFDAB9; /* peachpuff background color for buttons */
+  background: linear-gradient(to bottom, #87CEFA, #FFFF00); /* light blue to yellow gradient background */
   color: black; /* black text color for buttons */
   font-weight: bold; /* make buttons bold */
   padding: 10px 20px; /* add some padding to buttons */
@@ -63,6 +64,6 @@ button {
 }
 
 button:hover {
-  background-color: #FFA07A; /* coral background color on hover */
+  background: linear-gradient(to bottom, #87CEFA, #FFFF00); /* light blue to yellow gradient background */
   color: white; /* white text color on hover */
 }
