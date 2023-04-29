@@ -64,6 +64,10 @@ main {
   justify-content: space-between;
 }
 
+section {
+  text-align: justify;
+}
+
 /* Products */
 
 .products {
