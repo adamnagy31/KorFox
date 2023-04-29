@@ -5,7 +5,7 @@ body {
   background-repeat: repeat-y; /* a képet ismétli a függőleges tengely mentén */
   background-size: cover; /* a kép méretét úgy állítja be, hogy kitöltse az egész háttérteret */
   background-attachment: fixed; /* a kép pozícióját fixálja, így a szöveg görgetése közben is ott marad a háttérkép */
-  opacity: 0.2; /* a kép átlátszóságát állítja be */
+  opacity: 0.1; /* a kép átlátszóságát állítja be */
   position: fixed;
   top: 0;
   left: 0;
