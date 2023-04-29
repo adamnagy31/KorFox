@@ -1,0 +1,68 @@
+body {
+  background: linear-gradient(to bottom, #87CEFA, #FFFF00); /* light blue to yellow gradient background */
+  color: black; /* black text color */
+  font-family: Arial, sans-serif; /* default font family */
+}
+
+header {
+  background-color: white; /* white background color for header */
+  padding: 20px; /* add some padding to header */
+}
+
+h1, h2 {
+  text-align: center; /* center the headings */
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #FFDAB9; /* peachpuff background color for navigation */
+  padding: 10px; /* add some padding to navigation */
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  color: black; /* black text color for navigation links */
+  text-decoration: none; /* remove underline from links */
+  font-weight: bold; /* make links bold */
+  font-size: 18px; /* increase font size of links */
+}
+
+nav a:hover {
+  color: #FFA07A; /* coral text color on hover */
+}
+
+section {
+  max-width: 800px; /* limit section width */
+  margin: 0 auto; /* center section */
+  padding: 50px; /* add some padding to section */
+  background-color: white; /* white background color for section */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* add shadow to section */
+  border-radius: 10px; /* round section corners */
+}
+
+button {
+  background-color: #FFDAB9; /* peachpuff background color for buttons */
+  color: black; /* black text color for buttons */
+  font-weight: bold; /* make buttons bold */
+  padding: 10px 20px; /* add some padding to buttons */
+  border: none; /* remove button border */
+  border-radius: 5px; /* round button corners */
+  cursor: pointer; /* add cursor pointer on hover */
+}
+
+button:hover {
+  background-color: #FFA07A; /* coral background color on hover */
+  color: white; /* white text color on hover */
+}
