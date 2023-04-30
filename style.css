@@ -26,6 +26,7 @@ img {
 }
 section {
 	display: inline-block;
+	margin: 0 30px;
 	width: 50%;
 	vertical-align: top;
 }
