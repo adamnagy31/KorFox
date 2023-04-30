@@ -19,11 +19,10 @@ h1, h2, h3 {
 }
 
 img {
-  max-width: 100%;
+  max-width: 130%;
   height: auto;
   display: block;
   margin:0;
-	height: auto;
 }
 section {
 	display: inline-block;
