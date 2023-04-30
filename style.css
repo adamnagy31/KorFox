@@ -20,8 +20,8 @@ h1, h2, h3 {
 
 img {
   max-width: 903px;
-  height: auto;
-  display: inline-block;
+  height: 603px;
+  display: block;
   margin:0;
 }
 section {
