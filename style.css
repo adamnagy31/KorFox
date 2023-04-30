@@ -1,12 +1,15 @@
 /* General styles */
 
+html {
+background: linear-gradient(to bottom, #000000, #FAF0E6);
+}
+
 body {
   font-family: Arial, sans-serif;
   color: #333333;
   margin: 0;
   padding: 0;
-  background: linear-gradient(to bottom, #000000, #FAF0E6);
-}
+  }
 
 a {
   text-decoration: none;
