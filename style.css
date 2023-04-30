@@ -72,6 +72,7 @@ main {
   padding: 20px;
   display: flex;
   flex-wrap: wrap;
+  background: linear-gradient(to bottom, black, cream);
   justify-content: space-between;
 }
 
