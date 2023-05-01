@@ -13,6 +13,7 @@ body {
   height: 100%;
   width: 100%;
   background: linear-gradient(to bottom, #000000, #FAF0E6);
+  z-index: -1;
 }
 
 a {
