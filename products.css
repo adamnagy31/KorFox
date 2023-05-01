@@ -1,0 +1,196 @@
+body {
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  }
+
+.background {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(to bottom, #000000, #FAF0E6);
+  z-index: -1;
+}
+
+a {
+  text-decoration: none;
+  color: #333333;
+}
+
+h1, h2, h3 {
+  margin: 0;
+  font-weight: normal;
+}
+
+img {
+  max-width: 903px;
+  height: 603px;
+  display: block;
+  margin:0;
+}
+section {
+	display: inherit;
+	margin: 0 20px;
+	width: 50%;
+}
+/* Header */
+
+header {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header h1 {
+  font-size: 36px;
+  margin: 0;
+  color: #ffd700;
+  text-align: center;
+}
+
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+header nav ul li {
+  text-align: center;
+  margin: 0 10px;
+}
+
+header nav ul li a {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffd700;
+}
+
+/* Main */
+
+main {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* Products */
+
+.products {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.category {
+  width: 30%;
+  background-color: #ffffff;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+.category h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.category ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  flex-grow: 1;
+}
+
+.category li {
+  margin-bottom: 10px;
+}
+
+.category li img {
+  margin-right: 10px;
+}
+
+.category li h3 {
+  font-size: 18px;
+  margin: 0 0 5px 0;
+}
+
+.category li p {
+  margin: 0;
+  font-size: 14px;
+  color: #666666;
+}
+
+.category button {
+  background-color: #e6e6e6;
+  border: none;
+  color: #333333;
+  padding: 10px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.category button:hover {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+/* Contact */
+
+.contact {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.contact form label {
+  font-size: 18px;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.contact form input,
+.contact form textarea {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  margin-bottom: 10px;
+}
+
+.contact form textarea {
+  height: 150px;
+}
+
+.contact form button {
+  background-color: #e6e6e6;
+  border: none;
+  color: #333333;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.contact form button:hover {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+/* Footer */
+
+footer {
+  background-color: #000000;
+  color: #ffffff;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
