@@ -192,4 +192,7 @@ main {
 footer {
   background-color: #000000;
   color: #ffffff;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
