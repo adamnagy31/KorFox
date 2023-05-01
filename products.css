@@ -24,18 +24,11 @@ h1, h2, h3 {
   font-weight: normal;
 }
 
-img {
-  max-width: 903px;
-  height: 603px;
-  display: block;
-  margin:0;
-}
 section {
 	display: inherit;
 	margin: 0 20px;
-	width: 50%;
+	width: 75%;
 }
-/* Header */
 
 header {
   padding: 20px;
